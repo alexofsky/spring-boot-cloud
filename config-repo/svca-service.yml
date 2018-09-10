@@ -2,7 +2,9 @@ server:
   port: 8080
 
 name: zhangxd
-feign.hystrix.enabled:  true
+feign:
+  hystrix:
+    enabled:  true
 
 eureka:
   instance:
